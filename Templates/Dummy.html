@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            My Website
+        </title>
+        <link rel="stylesheet" href="index.css">
+        <!--<style>
+            body {
+                background-color: blue;
+            }
+            .body {
+                background-color: skyblue;
+            }
+        </style>-->
+    </head>
+    <body>
+        <h1 style="text-align: center;">Welcome to my website</h1>
+        <p class="body">
+            Write the matter you want to modify.
+            <form action="/Modified" method="get">
+                <textarea name="name" cols="30" rows="10" style='height: 20%; width: 100%';></textarea>
+                <input type="checkbox" name="rempunc"> Remove Punctuation<br>
+                <input type="checkbox" name="remnum"> Remove Numbers<br>
+                <input type="checkbox" name="makecap"> Make All Capital<br>
+                <input type="checkbox" name="makelow"> Make All Lower<br>
+                <button type="submit">submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </p>
+    </body>
+</html>
